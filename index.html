@@ -13,9 +13,9 @@
 
 
 
-    <meta name="description" content="Mufeed VH's projects, blogs, security research, open source code, and stuff.">
+    <meta name="description" content="Shehin's projects, blogs, security research, open source code, and stuff.">
 
-    <link rel="canonical" href="https://www.mufeedvh.com/">
+    <link rel="canonical" href="https://www.sheh.in/">
 
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="website">
@@ -23,14 +23,14 @@
     <meta property="og:description"
         content="Mufeed VH's projects, blogs, security research, open source code, and stuff.">
 
-    <meta property="og:url" content="https://www.mufeedvh.com/">
+    <meta property="og:url" content="https://www.sheh.in/">
 
-    <meta property="og:site_name" content="Mufeed VH">
+    <meta property="og:site_name" content="Shehin KT">
     <meta name="twitter:description"
         content="Mufeed VH's projects, blogs, security research, open source code, and stuff.">
-    <meta name="twitter:title" content="Mufeed VH">
-    <meta name="twi tter:site" content="@mufeedvh">
-    <meta name="twitter:creator" content="@mufeedvh">
+    <meta name="twitter:title" content="Shehin KT">
+    <meta name="twi tter:site" content="@shehinkt">
+    <meta name="twitter:creator" content="@shehinkt">
 
 
 
@@ -80,27 +80,6 @@
         <br>
 
     </div>
-
-    <script>
-        function share_button() {
-            if (navigator.share) {
-                navigator.share({
-                    title: document.querySelector('meta[property="og:title"]').content,
-                    text: document.querySelector('meta[name="description"]').content,
-                    url: document.querySelector('link[rel="canonical"]').href
-                })
-                    .then(() => console.log('Successful share'))
-                    .catch((error) => console.log('Error sharing', error));
-            } else {
-                navigator.clipboard.writeText(window.location.href);
-                document.getElementById('share-button').innerHTML = 'Link copied to clipboard! <i class="fa-solid fa-copy"></i>';
-            }
-        }
-
-        function twitter_follow() {
-            window.location.href = "https://x.com/mufeedvh";
-        }
-    </script>
 
 </body>
 
